@@ -1,7 +1,8 @@
 #!usr/bin/env python
 #-*- coding: utf-8 -*-
 from skimage.transform import rotate
-# http://scikit-image.org/docs/dev/api/skimage.feature.html HOG, LBP & corner computing 
+# http://scikit-image.org/docs/dev/api/skimage.feature.html HOG, LBP & corner computing
+# http://scikit-image.org/docs/dev/auto_examples/features_detection/plot_hog.html
 from skimage.feature import local_binary_pattern
 from skimage import data, io
 from skimage.color import label2rgb
